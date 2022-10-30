@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "DDD",
+        "BCB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sea_lantern"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "B": {
+            "item": "minecraft:beacon"
+        },
+        "C": {
+            "item": "minecraft:conduit"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

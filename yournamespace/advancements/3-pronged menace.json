@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "3-pronged menace",
+    "description": "craft a trident",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft a trident": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "yournamespace:trident"
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/diamond_block",
+      "minecraft:blocks/oak_fence",
+      "minecraft:blocks/netherite_block",
+      "minecraft:blocks/beacon"
+    ],
+    "experience": 70
+  }
+}
